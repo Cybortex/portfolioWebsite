@@ -7,7 +7,7 @@ const CommunitySection = () => {
         {/* Section Title and Description */}
         <h2 className="text-4xl font-semibold mb-6">Join the Community</h2>
         <p className="text-lg mb-10">
-          Be a part of a dynamic community where we share valuable insights on entrepreneurship, tech, and marketing. Let's collaborate and grow together!
+          Be a part of a dynamic community where we share valuable insights on entrepreneurship, tech, and marketing. Let&apos;s collaborate and grow together!
         </p>
 
         {/* Community Stats */}

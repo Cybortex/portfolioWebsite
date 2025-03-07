@@ -9,7 +9,7 @@ const Services = () => {
   
           {/* Expanded Description */}
           <p className="text-lg text-gray-600 text-center mb-16">
-            I'm a developer and the owner of Folugboji SMMA. I specialize in creating innovative tech solutions and providing high-quality digital marketing services that help businesses thrive in today's competitive landscape. Whether you're looking to establish a strong online presence or develop a custom web application, I offer tailored solutions to meet your needs and ensure your success in the digital world.
+            I&apos;m a developer and the owner of Folugboji SMMA. I specialize in creating innovative tech solutions and providing high-quality digital marketing services that help businesses thrive in today&apos;s competitive landscape. Whether you&apos;re looking to establish a strong online presence or develop a custom web application, I offer tailored solutions to meet your needs and ensure your success in the digital world.
           </p>
   
           {/* SMMA Services Section */}

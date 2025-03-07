@@ -8,7 +8,7 @@ const ContactSection = () => {
           Get in Touch
         </h2>
         <p className="text-xl text-gray-700 mb-12">
-          I'm always open to discussing new projects, creative ideas, or opportunities. Let's connect and make something amazing together.
+          I&apos;m always open to discussing new projects, creative ideas, or opportunities. Let&apos;s connect and make something amazing together.
         </p>
 
         {/* Contact Details */}
@@ -49,7 +49,7 @@ const ContactSection = () => {
             href="#contact"
             className="inline-block bg-blue-600 text-white py-3 px-8 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300"
           >
-            Let's Connect
+            Let&apos;s Connect
           </a>
         </div>
       </div>

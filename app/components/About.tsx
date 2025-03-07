@@ -19,7 +19,7 @@ const About = () => {
               Who I Am
             </h3>
             <p className="text-lg text-gray-600 mb-6">
-              I’m a 20-year-old writer and entrepreneur passionate about storytelling, business, and technology. On a mission to help brands thrive in the digital world.
+              I&apos;m a 20-year-old writer and entrepreneur passionate about storytelling, business, and technology. On a mission to help brands thrive in the digital world.
             </p>
             <p className="text-lg text-gray-600">
               Combining business strategy, AI solutions, and creative storytelling, I aim to build innovative brands and digital products that make a lasting impact.
