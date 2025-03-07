@@ -40,7 +40,7 @@ const About = () => {
               <li>Content Creation & Storytelling</li>
             </ul>
             <p className="text-lg text-gray-600">
-              I'm always looking for new ways to innovate and collaborate, pushing boundaries with technology and creativity.
+              I&apos;m always looking for new ways to innovate and collaborate, pushing boundaries with technology and creativity.
             </p>
           </div>
 
