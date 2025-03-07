@@ -11,7 +11,6 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-16">
           {/* Left Image */}
           <div className="flex-shrink-0 w-64 h-64 md:w-80 md:h-80 rounded-lg shadow-lg bg-cover bg-center" style={{ backgroundImage: "url('/your-image.jpg')" }}>
-            {/* Replace '/your-image.jpg' with the actual path to your image */}
           </div>
 
           {/* Right Text */}
@@ -47,7 +46,6 @@ const About = () => {
 
           {/* Right Image */}
           <div className="flex-shrink-0 w-64 h-64 md:w-80 md:h-80 rounded-lg shadow-lg bg-cover bg-center" style={{ backgroundImage: "url('/skills-image.jpg')" }}>
-            {/* Replace '/skills-image.jpg' with the actual path to your image */}
           </div>
         </div>
 

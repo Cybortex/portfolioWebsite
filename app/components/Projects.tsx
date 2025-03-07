@@ -18,7 +18,7 @@ const Projects = () => {
               className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
               style={{
                 backgroundImage:
-                  "url('https://garyvaynerchuk.com/wp-content/uploads/2022/08/Gary-Vaynerchuk-attends-Pencils-Of-Promise-scaled-1.webp')",
+                  "url('/fca.jpg')",
               }}
             >
               {/* Overlay */}
@@ -28,9 +28,9 @@ const Projects = () => {
             {/* Content */}
             <div className="relative z-10 flex flex-col justify-end items-center text-center p-4 h-full">
               <h3 className="text-2xl font-bold text-white uppercase">
-                Gary Vaynerchuk
+                Erudition Ai
               </h3>
-              <p className="text-sm text-gray-300 italic">builds businesses</p>
+              <p className="text-sm text-gray-300 italic">Ed-tech StartUp</p>
             </div>
           </div>
 
@@ -41,7 +41,7 @@ const Projects = () => {
               className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
               style={{
                 backgroundImage:
-                  "url('https://garyvaynerchuk.com/wp-content/uploads/2022/08/Gary-Vaynerchuk-attends-Pencils-Of-Promise-scaled-1.jpeg')",
+                  "url('/fca2.jpg')",
               }}
             >
               {/* Overlay */}
@@ -51,9 +51,9 @@ const Projects = () => {
             {/* Content */}
             <div className="relative z-10 flex flex-col justify-end items-center text-center p-4 h-full">
               <h3 className="text-2xl font-bold text-white uppercase">
-                Gary Vaynerchuk
+                Folugboji Code <br /> Adademy
               </h3>
-              <p className="text-sm text-gray-300 italic">builds businesses</p>
+              <p className="text-sm text-gray-300 italic">a programming school</p>
             </div>
           </div>
 
@@ -64,7 +64,7 @@ const Projects = () => {
               className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
               style={{
                 backgroundImage:
-                  "url('https://garyvaynerchuk.com/wp-content/uploads/2022/08/Gary-Vaynerchuk-attends-Pencils-Of-Promise-scaled-1.webp')",
+                  "url('/fca.jpg')",
               }}
             >
               {/* Overlay */}
@@ -74,9 +74,9 @@ const Projects = () => {
             {/* Content */}
             <div className="relative z-10 flex flex-col justify-end items-center text-center p-4 h-full">
               <h3 className="text-2xl font-bold text-white uppercase">
-                Gary Vaynerchuk
+                Cybortex
               </h3>
-              <p className="text-sm text-gray-300 italic">builds businesses</p>
+              <p className="text-sm text-gray-300 italic">A gaming & tech company</p>
             </div>
           </div>
         </div>

@@ -10,7 +10,6 @@ const Navbar = () => {
     );
     const [toggle, setToggle] = useState(false);
 
-    // Update currentPath when the hash changes
     useEffect(() => {
         const handleHashChange = () => {
             setCurrentPath(window.location.hash || '/');

@@ -57,7 +57,7 @@ const CommunitySection = () => {
 
         {/* CTA Button */}
     <a
-        href="https://www.instagram.com/yourprofile" // Replace with your community link
+        href="https://www.instagram.com/yourprofile" 
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block border-2 border-gold text-white py-3 px-8 rounded-lg text-lg font-semibold hover:bg-gold transition duration-300"
@@ -69,7 +69,7 @@ const CommunitySection = () => {
         {/* Social Links */}
         <div className="mt-12 flex justify-center gap-6">
           <a
-            href="https://www.instagram.com/yourprofile"  // Replace with your Instagram link
+            href="https://www.instagram.com/yourprofile" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-white text-2xl hover:text-pink-500 transition duration-300"
@@ -77,7 +77,7 @@ const CommunitySection = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://www.facebook.com/yourprofile"  // Replace with your Facebook link
+            href="https://www.facebook.com/yourprofile" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-white text-2xl hover:text-blue-600 transition duration-300"
@@ -85,7 +85,7 @@ const CommunitySection = () => {
             <FaFacebook />
           </a>
           <a
-            href="https://wa.me/yourphonenumber"  // Replace with your WhatsApp link
+            href="https://wa.me/yourphonenumber"  
             target="_blank"
             rel="noopener noreferrer"
             className="text-white text-2xl hover:text-green-500 transition duration-300"
@@ -93,7 +93,7 @@ const CommunitySection = () => {
             <FaWhatsapp />
           </a>
           <a
-            href="https://www.linkedin.com/in/yourprofile"  // Replace with your LinkedIn link
+            href="https://www.linkedin.com/in/yourprofile" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-white text-2xl hover:text-blue-500 transition duration-300"
@@ -101,7 +101,7 @@ const CommunitySection = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://www.youtube.com/yourchannel"  // Replace with your YouTube link
+            href="https://www.youtube.com/yourchannel" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-white text-2xl hover:text-red-500 transition duration-300"
@@ -109,7 +109,7 @@ const CommunitySection = () => {
             <FaYoutube />
           </a>
           <a
-            href="https://www.tiktok.com/@yourprofile"  // Replace with your TikTok link
+            href="https://www.tiktok.com/@yourprofile"  
             target="_blank"
             rel="noopener noreferrer"
             className="text-white text-2xl hover:text-black transition duration-300"

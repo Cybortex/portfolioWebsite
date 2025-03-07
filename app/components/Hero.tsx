@@ -2,12 +2,12 @@
 
 const Hero = () => {
   return (
-    <div className="hero min-h-screen bg-black relative mt-[80px]"> {/* Adjusting the top margin */}
+    <div className="hero min-h-screen bg-black relative mt-[80px]">
       {/* Background Image */}
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center opacity-50"
         style={{
-          backgroundImage: "url('/hero-background.jpg')", // Replace with your image path
+          backgroundImage: "url('/hero-background.jpg')", 
         }}
       ></div>
 
@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="hero-content flex-col lg:flex-row-reverse items-center relative z-10 text-white gap-10">
         {/* Profile Image */}
         <img
-          src="/profile.jpg" // Replace with your profile image path
+          src="/profile.jpg" 
           className="w-64 h-64 rounded-full shadow-lg border-4 border-gold object-cover"
           alt="Profile"
         />

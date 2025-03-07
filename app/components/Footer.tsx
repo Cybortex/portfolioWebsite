@@ -50,7 +50,7 @@ const Footer = () => {
 
         {/* Contact Number and Copyright */}
         <div className="text-center sm:text-right text-sm sm:text-base">
-          <p>Contact: +123-456-7890</p>
+          <p>Contact: +234 905 710 5876</p>
           <p>&copy; {new Date().getFullYear()} Folugboji. All Rights Reserved.</p>
         </div>
       </div>

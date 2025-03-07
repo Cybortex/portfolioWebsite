@@ -1,4 +1,4 @@
-import { FaArrowRight } from "react-icons/fa"; // Importing the arrow icon
+import { FaArrowRight } from "react-icons/fa"; 
 
 const Header = () => {
   return (
@@ -13,7 +13,7 @@ const Header = () => {
           </strong>{" "}
           Take your business to the next level.
         </span>
-        <FaArrowRight className="text-gold text-[10px]" />
+        <a href=""><FaArrowRight className="text-gold text-[10px] hover:scale-50" /></a>
       </div>
     </div>
   );

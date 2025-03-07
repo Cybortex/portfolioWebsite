@@ -1,14 +1,5 @@
 import React from 'react';
 
-const SectionHeader = () => {
-  return (
-    <div className="text-center py-8">
-      <h1 className="text-4xl font-bold text-gray-900">Explore My Content</h1>
-      <p className="text-gray-600 mt-2">Inspiration, motivation, and actionable insights all in one place!</p>
-    </div>
-  );
-};
-
 const UpcomingEvents = () => {
   return (
     <section className="mt-8 p-6">
@@ -23,16 +14,16 @@ const UpcomingEvents = () => {
             className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
             style={{
               backgroundImage:
-                "url('https://garyvaynerchuk.com/wp-content/uploads/2022/08/Gary-Vaynerchuk-attends-Pencils-Of-Promise-scaled-1.webp')",
+                "url('/codathon.jpg')",
             }}
           >
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           </div>
           <div className="relative z-10 flex flex-col justify-end items-center text-center p-4 h-full">
             <h3 className="text-2xl font-bold text-white uppercase">
-              Gary Vaynerchuk
+              Codathon
             </h3>
-            <p className="text-sm text-gray-300 italic">Builds businesses and shares insights.</p>
+            <p className="text-sm text-gray-300 italic">Private coding session</p>
           </div>
         </div>
 
@@ -42,7 +33,7 @@ const UpcomingEvents = () => {
             className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2')", 
+                "url('/women.jpg')", 
             }}
           >
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -64,7 +55,7 @@ const UpcomingEvents = () => {
   );
 };
 
-const MediaSection = () => {
+const YoutubeSection = () => {
   return (
     <div className="py-12 px-6 max-w-screen-xl mx-auto">
       <div className="text-center mb-8">
@@ -75,8 +66,8 @@ const MediaSection = () => {
           Explore powerful stories, motivational speeches, and transformative insights in these videos.
         </p>
       </div>
-      <div className="flex flex-col sm:flex-row justify-between items-center sm:space-x-8 mb-12">
-        <div className="w-full sm:w-1/2 mb-8 sm:mb-0">
+      <div className="flex flex-col sm:flex-row justify-center sm:space-x-8 gap-8 mb-12">
+        <div className="flex justify-center items-center w-full sm:w-1/2 mb-8 sm:mb-0">
           <iframe
             className="w-full max-w-xs sm:max-w-lg h-48 sm:h-72 rounded-lg shadow-lg"
             loading="lazy"
@@ -86,7 +77,7 @@ const MediaSection = () => {
             allowFullScreen
           />
         </div>
-        <div className="w-full sm:w-1/2 mb-8 sm:mb-0">
+        <div className="flex justify-center items-center w-full sm:w-1/2 mb-8 sm:mb-0">
           <iframe
             className="w-full max-w-xs sm:max-w-lg h-48 sm:h-72 rounded-lg shadow-lg"
             loading="lazy"
@@ -103,23 +94,23 @@ const MediaSection = () => {
 
 const PodcastSection = () => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-lg my-12">
-      <div className="flex flex-col md:flex-row gap-6 items-center">
-        <div className="flex-1 md:w-1/3">
+    <div className="bg-white p-6 sm:max-w-3xl mx-auto rounded-lg shadow-lg my-12">
+      <div className="flex flex-col md:flex-row gap-4 items-center">
+        <div className="hidden sm:flex flex-1 justify-center md:justify-start md:w-1/3">
           <img
-            src="podcast.jpg" 
+            src="podcast2.jpg"
             alt="The Folugboji Talk Show"
-            className="rounded-lg shadow-lg w-150 h-150 object-cover"
+            className="rounded-lg shadow-lg w-[32px] h-[32px] sm:w-36 sm:h-36 object-cover"
           />
         </div>
-        <div className="flex-1 md:w-2/3">
+        <div className="flex-1 md:w-2/3 text-center md:text-left">
           <h3 className="font-semibold text-lg text-gray-800">
             The Folugboji Talk Show
           </h3>
           <p className="text-gray-600 mb-4">
             A podcast for aspiring minds shaping their future. Tune in for inspiring stories and actionable insights.
           </p>
-          <div className="flex justify-center">
+          <div className="flex justify-center md:justify-start">
             <iframe
               src="https://creators.spotify.com/pod/show/folugboji-talks/embed/episodes/Zero-to-Billionaire-The-Folugboji-Story-Episode-1---The-Background-e1uu3hj"
               height="102px"
@@ -135,12 +126,16 @@ const PodcastSection = () => {
   );
 };
 
+
 const ContentSection = () => {
   return (
     <div className="py-8">
-      <SectionHeader />
+      <div className="text-center py-8">
+      <h1 className="text-4xl font-bold text-gray-900">Explore My Content</h1>
+      <p className="text-gray-600 mt-2">Inspiration, motivation, and actionable insights all in one place!</p>
+     </div>
       <UpcomingEvents />
-      <MediaSection />
+      <YoutubeSection />
       <PodcastSection />
     </div>
   );

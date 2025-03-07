@@ -8,7 +8,7 @@ const ContactSection = () => {
           Get in Touch
         </h2>
         <p className="text-xl text-gray-700 mb-12">
-          I’m always open to discussing new projects, creative ideas, or opportunities. Let's connect and make something amazing together.
+          I'm always open to discussing new projects, creative ideas, or opportunities. Let's connect and make something amazing together.
         </p>
 
         {/* Contact Details */}
@@ -16,13 +16,13 @@ const ContactSection = () => {
           {/* Email */}
           <div className="text-left">
             <h4 className="text-2xl font-semibold text-dark-gray mb-4">Email</h4>
-            <p className="text-lg text-gray-700">youremail@example.com</p>
+            <p className="text-lg text-gray-700">olugbojiobafemi@gmail.com</p>
           </div>
 
           {/* Phone */}
           <div className="text-left">
             <h4 className="text-2xl font-semibold text-dark-gray mb-4">Phone</h4>
-            <p className="text-lg text-gray-700">+1 (123) 456-7890</p>
+            <p className="text-lg text-gray-700">+234 905 710 5876</p>
           </div>
 
           {/* Social Media Links */}
@@ -44,8 +44,6 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
-
-        {/* Call to Action Button */}
         <div>
           <a
             href="#contact"
